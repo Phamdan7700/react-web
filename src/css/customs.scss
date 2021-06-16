@@ -1,0 +1,27 @@
+$font-family-sans-serif: "Roboto", sans-serif;
+$danger: #fc0000;
+$badge-border-radius: 5px;
+$badge-font-size: 12px;
+$primary: #ffab2b;
+$success: #6dd230;
+@import "~bootstrap/scss/bootstrap";
+
+
+// TEXT
+.text-primary {
+  color: #ffba00 !important;
+}
+
+// BUTTON
+// .btn-primary {
+//   background-color: #ffab2b !important;
+//   border-color: #ffab2b !important;
+// }
+
+// LINK
+.nav-link {
+  color: #fff !important;
+}
+.nav-link.active {
+  color: #ffba00 !important;
+}
