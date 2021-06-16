@@ -1,7 +1,15 @@
-.user-info {
+.user {
   img {
     border: 1.5px solid #ffba00;
     outline-offset: 1.5px;
     border-radius: 50%;
+  }
+
+  .user-name {
+    font-size: 14px;
+  }
+
+  .user-mode{
+    font-size: 12px;
   }
 }

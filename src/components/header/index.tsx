@@ -4,17 +4,20 @@ import Logo from "../logo";
 import NavHeader from "../nav";
 import Notify from "../notify";
 import User from "../user";
-import './index.scss';
+import "./index.scss";
 const Header = function () {
   return (
-    <>
-      <Navbar className="navbar">
+    <header className="header-top">
+      <Navbar className="navbar" expand="md">
         <Logo />
-        <NavHeader />
-        <Notify />
-        <User />
+        <Navbar.Toggle aria-controls="basic-navbar-nav" />
+        <Navbar.Collapse id="basic-navbar-nav">
+          <NavHeader />
+          <Notify />
+          <User />
+        </Navbar.Collapse>
       </Navbar>
-    </>
+    </header>
   );
 };
 

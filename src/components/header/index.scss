@@ -1,6 +1,13 @@
-.navbar {
+.header-top {
   background-color: #212529;
-  .nav-link {
-    color: #fff !important;
+
+  .navbar-brand {
+    margin-right: 19px;
+  }
+
+  .navbar {
+    max-width: 1440px;
+    height: 64px;
+    margin: auto;
   }
 }
